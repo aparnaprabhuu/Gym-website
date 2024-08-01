@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Ubuntu&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url(gym-g9098c35f1_1920.jpg);
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            left: 25px;
+            top: 25px;
+            /* border: 2px solid white;*/
+            color: white;
+        }
+
+        .left img {
+            width: 60px;
+            height: 50px;
+
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .mid {
+            display: block;
+            width: 58%;
+            margin: 27px auto;
+            /*  border: 2px solid white;*/
+            color: white;
+
+        }
+
+        .mid a {
+            font-size: 20px;
+        }
+
+        .right {
+            display: inline-block;
+            position: absolute;
+            right: 39px;
+            top: 47px;
+            /*  border: 2px solid white;*/
+            color: white;
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 15px;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: white;
+            font-size: 30px;
+            padding: 20px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: bisque;
+        }
+
+        .btn {
+            margin: opx 9px;
+            background-color: gray;
+            color: aliceblue;
+            padding: 4px 14px;
+            border-color: 2px solid azure;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .btn:hover {
+            background-color: rgb(114, 120, 120);
+        }
+
+        .container {
+            border: 2px solid white;
+            padding: 62px 95px;
+            margin: 76px 41px;
+            width: 42%;
+            border-radius: 18px;
+        }
+
+        .form-group input {
+            border: 2px solid black;
+            border-radius: 5px;
+            display: block;
+            font-size: 30px;
+            margin: 8px auto;
+            padding: 4px;
+            width: 60%;
+            text-align: center;
+        }
+
+        .container button {
+            display: block;
+            width: 62%;
+            margin: 16px auto;
+
+        }
+
+        .container h1 {
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="gym-girl-g9f306c13e_1920.jpg">
+            <div> FITNESS</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness track</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call us now</button><button class="btn">Email us here</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1> Join the best gym for fitness and health</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div>
+                <button class="btn">SUBMIT</button>
+
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
